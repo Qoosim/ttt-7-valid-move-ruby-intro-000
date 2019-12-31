@@ -2,6 +2,8 @@
 def valid_move?(board, index)
   if position_taken?(board, index)
     true
+  elsif position_taken?(board, index).empty? || position_taken?(board, index).not_empty?
+    true
   else
     false
   end
