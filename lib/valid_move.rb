@@ -6,11 +6,6 @@ def valid_move?(board, index)
   else
     false
   end
-  if position_taken?(board, index) == " "
-    true
-  else
-    false
-  end
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
